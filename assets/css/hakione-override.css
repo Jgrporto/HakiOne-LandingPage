@@ -1,0 +1,253 @@
+:root {
+  --hakione-bg: #091116;
+  --hakione-surface: #101b23;
+  --hakione-ink: #eef7fb;
+  --hakione-muted: #a9bac6;
+  --hakione-green: #12d45c;
+  --hakione-blue: #2f9cff;
+  --hakione-blue-dark: #1261d8;
+}
+
+html.hakione-brand body {
+  letter-spacing: 0;
+}
+
+html.hakione-brand .logo__container {
+  display: inline-flex;
+  width: 9.75rem;
+  min-height: 2.25rem;
+  align-items: center;
+}
+
+html.hakione-brand .logo__container svg {
+  display: none !important;
+}
+
+html.hakione-brand .logo__container::before {
+  display: block;
+  width: 9.75rem;
+  height: 3.35rem;
+  content: "";
+  background: url("../../hakione_logo_no_bg.png") left center / contain no-repeat;
+}
+
+html.hakione-brand img[src="hakione_mark_transparent.png"] {
+  object-fit: contain;
+  padding: 0.35rem;
+}
+
+html.hakione-brand .js-header-block {
+  background: #071016 !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+html.hakione-brand .js-header-block .text-btn,
+html.hakione-brand .js-header-block .text-btn--primary,
+html.hakione-brand .js-header-block .text-btn--primary-inversed,
+html.hakione-brand .js-header-block a,
+html.hakione-brand .js-header-block button {
+  color: #e8f3f8 !important;
+}
+
+html.hakione-brand .js-header-block .text-secondary {
+  color: var(--hakione-muted) !important;
+}
+
+html.hakione-brand .js-header-block .btn--outline {
+  border-color: rgba(47, 156, 255, 0.55) !important;
+  background: rgba(47, 156, 255, 0.06) !important;
+}
+
+html.hakione-brand .js-header-block .js-go-to-sign-up,
+html.hakione-brand .js-header-block .btn--primary {
+  background: linear-gradient(135deg, var(--hakione-green), var(--hakione-blue)) !important;
+  color: #061016 !important;
+}
+
+html.hakione-brand .js-header-block .js-go-to-sign-up span,
+html.hakione-brand .js-header-block .btn--primary span {
+  color: #061016 !important;
+}
+
+html.hakione-brand .bg-primary,
+html.hakione-brand .bg-tolopea,
+html.hakione-brand .bg-dark {
+  background-color: var(--hakione-bg) !important;
+}
+
+html.hakione-brand .bg-gainsborough,
+html.hakione-brand .bg-linkWater,
+html.hakione-brand .bg-secretSilver {
+  background-color: #f3f8fb !important;
+}
+
+html.hakione-brand .text-purpleHeart,
+html.hakione-brand .text-tolopea,
+html.hakione-brand .text-primary {
+  color: var(--hakione-blue-dark) !important;
+}
+
+html.hakione-brand .text-inversed,
+html.hakione-brand .text-white {
+  color: #fff !important;
+}
+
+html.hakione-brand .btn--filled,
+html.hakione-brand .btn--primary,
+html.hakione-brand .bg-electricBlue,
+html.hakione-brand .bg-pastelGreen {
+  background: linear-gradient(135deg, var(--hakione-green), var(--hakione-blue)) !important;
+  color: #061016 !important;
+  border-color: transparent !important;
+}
+
+html.hakione-brand .border-electricBlue,
+html.hakione-brand .border-purpleHeart,
+html.hakione-brand .border-tolopea {
+  border-color: rgba(47, 156, 255, 0.48) !important;
+}
+
+html.hakione-brand .main-ai-snippet-block__desktop-control.active,
+html.hakione-brand .main-ai-snippet-block__mobile-item.active,
+html.hakione-brand .main-demo-block__tab.active::after {
+  background: linear-gradient(90deg, var(--hakione-green), var(--hakione-blue)) !important;
+}
+
+html.hakione-brand .main-demo-block__tab.active {
+  color: var(--hakione-blue-dark) !important;
+}
+
+html.hakione-brand .icons-carousel {
+  display: none !important;
+}
+
+html.hakione-brand .icons-carousel__img {
+  display: none !important;
+}
+
+html.hakione-brand #main-hero-block .badges {
+  display: none !important;
+}
+
+html.hakione-brand #main-hero-block {
+  overflow: hidden;
+}
+
+html.hakione-brand #main-hero-block::before,
+html.hakione-brand #main-hero-block::after {
+  position: absolute;
+  z-index: 0;
+  width: 22rem;
+  height: 22rem;
+  content: "";
+  background: url("../../hakione_mark_transparent.png") center / contain no-repeat;
+  opacity: 0.055;
+  pointer-events: none;
+}
+
+html.hakione-brand #main-hero-block::before {
+  top: 9rem;
+  left: max(1rem, calc(50% - 44rem));
+}
+
+html.hakione-brand #main-hero-block::after {
+  top: 13rem;
+  right: max(1rem, calc(50% - 44rem));
+}
+
+html.hakione-brand #main-hero-block > * {
+  position: relative;
+  z-index: 1;
+}
+
+html.hakione-brand .main-demo-block__mobile-frame {
+  position: relative;
+  min-height: 26rem;
+  border-color: rgba(47, 156, 255, 0.3) !important;
+  background:
+    linear-gradient(135deg, rgba(18, 212, 92, 0.08), rgba(47, 156, 255, 0.12)),
+    #eef6fa !important;
+}
+
+html.hakione-brand .main-demo-block__mobile-frame::before {
+  position: absolute;
+  inset: 2rem;
+  z-index: 2;
+  content: "";
+  border: 1px solid rgba(9, 17, 22, 0.08);
+  border-radius: 1rem;
+  background:
+    linear-gradient(#ffffff, #ffffff) 2rem 2rem / 34% 0.75rem no-repeat,
+    linear-gradient(#d9e7ee, #d9e7ee) 2rem 4rem / 48% 0.5rem no-repeat,
+    linear-gradient(90deg, rgba(18, 212, 92, 0.16), rgba(47, 156, 255, 0.18)) 2rem 6rem / calc(100% - 4rem) 5rem no-repeat,
+    linear-gradient(#ffffff, #ffffff) 2rem 13rem / calc(50% - 3rem) 7rem no-repeat,
+    linear-gradient(#ffffff, #ffffff) calc(50% + 1rem) 13rem / calc(50% - 3rem) 7rem no-repeat,
+    url("../../hakione_mark_transparent.png") center 8rem / 6.5rem auto no-repeat,
+    rgba(255, 255, 255, 0.62);
+  box-shadow: 0 24px 70px rgba(7, 16, 22, 0.1);
+}
+
+html.hakione-brand .main-demo-block__mobile-frame img[src="hakione_mark_transparent.png"] {
+  opacity: 0 !important;
+}
+
+html.hakione-brand .main-ai-block__background-sparkle-big,
+html.hakione-brand .main-ai-block__background-sparkle-medium,
+html.hakione-brand .main-ai-block__background-sparkle-small {
+  opacity: 0.08 !important;
+  transform: scale(0.62);
+}
+
+html.hakione-brand .cookies-notification__image,
+html.hakione-brand video,
+html.hakione-brand iframe[src=""] {
+  display: none !important;
+}
+
+html.hakione-brand footer .logo__container::before {
+  width: 8.75rem;
+}
+
+@media (max-width: 767px) {
+  html.hakione-brand #main-hero-block h1 {
+    width: auto !important;
+    max-width: calc(100vw - 2rem) !important;
+    font-size: 2.35rem !important;
+    line-height: 1.08 !important;
+  }
+
+  html.hakione-brand #main-hero-block p {
+    width: 18rem !important;
+    max-width: calc(100vw - 2rem) !important;
+    font-size: 0.95rem !important;
+    line-height: 1.55 !important;
+  }
+
+  html.hakione-brand .logo__container {
+    width: 8.25rem;
+  }
+
+  html.hakione-brand .logo__container::before {
+    width: 8.25rem;
+    height: 2.85rem;
+  }
+
+  html.hakione-brand #main-hero-block::before,
+  html.hakione-brand #main-hero-block::after {
+    display: none;
+  }
+
+  html.hakione-brand .main-demo-block__mobile-frame {
+    min-height: 20rem;
+  }
+
+  html.hakione-brand .main-demo-block__mobile-frame::before {
+    inset: 1rem;
+    background:
+      linear-gradient(#ffffff, #ffffff) 1rem 1rem / 44% 0.65rem no-repeat,
+      linear-gradient(#d9e7ee, #d9e7ee) 1rem 2.6rem / 58% 0.45rem no-repeat,
+      linear-gradient(90deg, rgba(18, 212, 92, 0.16), rgba(47, 156, 255, 0.18)) 1rem 4.3rem / calc(100% - 2rem) 4.5rem no-repeat,
+      url("../../hakione_mark_transparent.png") center 6rem / 5.25rem auto no-repeat,
+      rgba(255, 255, 255, 0.7);
+  }
+}

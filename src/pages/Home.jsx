@@ -12,6 +12,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
+<<<<<<< HEAD
       <Features />
       <AISection />
       <Channels />
@@ -21,3 +22,14 @@ export default function Home() {
     </div>
   );
 }
+=======
+      <Channels />
+      <Features />
+      <AISection />
+      <Testimonials />
+      <Pricing />
+      <Footer />
+    </div>
+  );
+}
+>>>>>>> 6ab3a3e2381b7b82765e283b2b0aad20e976b492

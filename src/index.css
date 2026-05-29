@@ -78,24 +78,16 @@
 
 
 @layer base {
-<<<<<<< HEAD
   html {
     scroll-behavior: smooth;
   }
 
-=======
->>>>>>> 6ab3a3e2381b7b82765e283b2b0aad20e976b492
   * {
     @apply border-border outline-ring/50;
   }
 
   body {
     @apply bg-background text-foreground;
-<<<<<<< HEAD
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   }
 }
-=======
-  }
-}
->>>>>>> 6ab3a3e2381b7b82765e283b2b0aad20e976b492

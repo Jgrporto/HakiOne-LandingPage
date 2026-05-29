@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { CheckCircle2, PlayCircle } from "lucide-react";
 
 const knowledgeItems = [
@@ -12,15 +11,10 @@ const implementationSteps = [
   "Configuração de dashboards",
   "Estrutura de chatbot e fluxos iniciais",
   "Acompanhamento de ativação",
-=======
-const logos = [
-  "Opt", "UGP", "Modo Center", "bioage", "SS SOLID", "SOROCALHAS", "Reis Pinto Advogados", "AW2", "SUBmundo"
->>>>>>> 6ab3a3e2381b7b82765e283b2b0aad20e976b492
 ];
 
 export default function Channels() {
   return (
-<<<<<<< HEAD
     <section className="bg-[#F7F7F7] px-4 py-20 md:px-6">
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto mb-14 max-w-3xl text-center">
@@ -104,22 +98,3 @@ export default function Channels() {
     </section>
   );
 }
-=======
-    <section className="py-16 px-4 bg-white border-b border-gray-100">
-      <div className="max-w-5xl mx-auto text-center">
-        <p className="text-base font-semibold text-gray-800 mb-8">Amado em mais de 100 países</p>
-        <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 mb-8">
-          {logos.map((logo) => (
-            <span key={logo} className="text-sm font-bold text-gray-400 tracking-tight hover:text-gray-600 transition-colors">
-              {logo}
-            </span>
-          ))}
-        </div>
-        <a href="#" className="text-sm font-semibold text-gray-800 hover:underline flex items-center justify-center gap-1">
-          Assista a histórias reais →
-        </a>
-      </div>
-    </section>
-  );
-}
->>>>>>> 6ab3a3e2381b7b82765e283b2b0aad20e976b492
